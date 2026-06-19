@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Privacy - Download Oficial</title>
+
+<link rel="icon" href="favicon.png?v=2">
+<link rel="shortcut icon" href="favicon.png?v=2">
+
+<meta name="theme-color" content="#111827">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+    overflow-x:hidden;
+}
+
+/* Vídeo de fundo */
+
+#bg-video{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    z-index:-2;
+}
+
+.overlay{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,.70);
+    z-index:-1;
+}
+
+/* Conteúdo */
+
+.container{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:40px 20px;
+}
+
+.logo{
+    width:90%;
+    max-width:450px;
+    border-radius:20px;
+    box-shadow:0 0 30px rgba(255,255,255,.15);
+}
+
+h1{
+    font-size:4rem;
+    margin-top:25px;
+}
+
+.subtitle{
+    margin-top:15px;
+    font-size:1.2rem;
+    opacity:.95;
+}
+
+/* Botão */
+
+.botao{
+    display:inline-block;
+    margin-top:35px;
+    padding:18px 40px;
+    background:#ff7300;
+    color:white;
+    text-decoration:none;
+    border-radius:16px;
+    font-size:1.4rem;
+    font-weight:bold;
+    transition:.3s;
+    animation:pulse 1.5s infinite;
+}
+
+.botao:hover{
+    transform:scale(1.08);
+}
+
+@keyframes pulse{
+
+    0%{
+        box-shadow:0 0 0 0 rgba(255,115,0,.7);
+    }
+
+    70%{
+        box-shadow:0 0 0 25px rgba(255,115,0,0);
+    }
+
+    100%{
+        box-shadow:0 0 0 0 rgba(255,115,0,0);
+    }
+}
+
+/* Descrição */
+
+.descricao{
+    margin-top:50px;
+    max-width:900px;
+    width:100%;
+    background:rgba(0,0,0,.40);
+    backdrop-filter:blur(10px);
+    padding:30px;
+    border-radius:20px;
+}
+
+.descricao h2{
+    color:#ff7300;
+    margin-bottom:20px;
+}
+
+.descricao p{
+    line-height:1.8;
+    font-size:1.05rem;
+}
+
+.recursos{
+    margin-top:20px;
+    text-align:left;
+    display:inline-block;
+}
+
+.recursos div{
+    margin:10px 0;
+}
+
+/* Rodapé */
+
+.footer{
+    margin-top:30px;
+    opacity:.7;
+    font-size:.9rem;
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+    h1{
+        font-size:3rem;
+    }
+
+    .subtitle{
+        font-size:1rem;
+    }
+
+    .botao{
+        width:90%;
+        max-width:350px;
+        font-size:1.1rem;
+    }
+
+    .descricao{
+        padding:20px;
+    }
+
+}
+
+@media(max-width:480px){
+
+    h1{
+        font-size:2.4rem;
+    }
+
+    .botao{
+        width:95%;
+    }
+
+    .descricao p{
+        font-size:.95rem;
+    }
+
+}
+
+</style>
+</head>
+
+<body>
+
+<video autoplay muted loop playsinline id="bg-video">
+    <source src="video.mp4" type="video/mp4">
+</video>
+
+<div class="overlay"></div>
+
+<div class="container">
+
+<img src="logo.png" class="logo" alt="Privacy">
+
+<h1>Privacy</h1>
+
+<p class="subtitle">
+Baixe gratuitamente a versão mais recente do aplicativo
+e companhe as lives mais picantes!
+</p>
+
+<a class="botao" href="Privacy.apk" download>
+📥 BAIXAR PRIVACY
+</a>
+
+<div class="descricao">
+
+<h2>🚀 Sobre o Privacy</h2>
+
+<p>
+O Privacy foi desenvolvido para oferecer uma experiência moderna,
+segura e intuitiva. Tenha acesso às funcionalidades mais recentes,
+com desempenho otimizado e atualizações constantes.
+</p>
+
+<div class="recursos">
+
+<div>🔒 Segurança e privacidade avançadas</div>
+<div>⚡ Aplicativo rápido e otimizado</div>
+<div>📱 Interface moderna e fácil de usar</div>
+<div>🔄 Atualizações frequentes</div>
+<div>🌎 Compatível com Android</div>
+
+</div>
+
+</div>
+
+<div class="footer">
+© 2026 Privacy - Todos os direitos reservados.
+</div>
+
+</div>
+
+</body>
+</html>
